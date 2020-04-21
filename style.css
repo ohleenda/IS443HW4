@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  body > div {
+    max-width: 1000px;
+    padding-top: 50px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .balloon {
+    font-size: 30px;
+  }
+  .active {
+    display: block;
+    animation-name: popOut;
+    animation-duration: 4s;
+  }
+  @keyframes popOut {
+    from {
+      color: #1a1c1d;
+    }
+    to {
+      color: #fff;
+    }
+  }
+  
